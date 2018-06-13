@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+h1, h4{
+  color: maroon;
+  text-shadow: 1px 1px;
+  opacity: 0.6;
+}
+
+
+textarea{
+  color: maroon;
+  font-size: 18px;
+  box-shadow: 4px 4px 4px maroon;
+}
