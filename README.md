@@ -1,6 +1,23 @@
 # AngularObservables
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
+This project demonstrates the implementation and use of the rxJs library in Angular.
+The fromEvent method is used to demonstrate the use.
+
+What is Observable-Observer Structure:
+
+Observable (publisher) is a wrapper around a stream of events. 
+The Observable subscribes to the Observer and invokes the next(), error() or complete() api in the observer(customer). 
+
+It is used extensively in Angular . For Example:
+1. EventEmitter
+2. Http Calls
+3. Template forms to listen to changes
+4. Router
+
+All these important Angular features extend the rxJs Observable type and are build around it.
+
+   
 
 ## Development server
 
